@@ -14,3 +14,24 @@ footer p {
     right: 0;
     left: 0;
 }
+
+/* General styling for the api_status div */
+#api_status {
+    background-color: #cccccc;
+    width: 40px; /* Diameter of the circle */
+    height: 40px; /* Diameter of the circle */
+    border-radius: 50%; /* To make it a circle */
+    position: absolute; /* To allow positioning relative to the header */
+    right: 30px; /* 30px from the right border */
+    top: 50%; /* Vertically centered */
+    transform: translateY(-50%); /* To perfectly center vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Additional styling when the class 'available' is present */
+.available {
+    background-color: #ff545f;
+}
+
